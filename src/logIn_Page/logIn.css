@@ -1,0 +1,170 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "inter", Arial;
+}
+
+
+.body_container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+
+}
+
+.body-left {
+    width: 50%;
+
+}
+
+.body-left img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* LOG IN SECTION */
+.body-right {
+    width: 50%;
+}
+
+
+
+.log-in-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+/* TITLE */
+
+.log-in-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+/* INPUT SECTION */
+
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.input-container input {
+    border: 0;
+    padding:  10px 20px;
+    border-radius: 80px;
+    min-width: 60%;
+    min-height: 3vh;
+    background-color: hsl(0, 0%, 95%);
+}
+
+.input-container input:focus {
+    outline: none;
+}
+
+
+.button {
+    height: 50px;
+    width: 50px;
+    bottom: 0;
+    display: none;
+}
+
+
+/* OPTION SECTION */
+
+.option-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    justify-content: space-between;
+    width: 60%;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.checkbox-container input {
+    clip-path: circle(50%);
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;    
+}
+
+.checkbox-container span {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.sign-in-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.sign-in-button button {
+    width: 60%;
+    padding: 15px 20px;
+    border-radius: 80px;
+    border: 0;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    background-color: hsl(19, 91%, 48%);
+}
+
+.sign-in-button button:hover {
+    background-color: hsl(19, 91%, 38%);
+}
+
+/* LOG IN WITH TITLE */
+
+.log-in-with-title {
+    font-size: 15px;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+/* OPTION BUTTON SECTION */
+
+.option-button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+    width: 100%;
+    align-items:center;
+}
+
+.option-button-container button {
+    width: 60%;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 80px;
+    border: 0.5px solid silver;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.option-button-container button img {
+    width: 16px;
+    height: 16px;
+}
+
+
+/* SIGN UP SECTION */
+
