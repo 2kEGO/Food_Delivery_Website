@@ -1,5 +1,8 @@
 import { useState } from "react";
 import "./logIn.css";
+import logInImg from "./log_In_page/town.webp";
+import google from "./log_In_page/Google.png";
+import apple from "./log_In_page/Apple.png";
 
 export default function LogInPage(){
     
@@ -8,7 +11,7 @@ export default function LogInPage(){
         <div className="body_container">
 
             <div className="body-left">
-                <img src="" alt="" />
+                <img src={logInImg} alt="" />
             </div>
 
             <div className="body-right">
@@ -48,19 +51,19 @@ export default function LogInPage(){
                     <div className="option-button-container">
 
                         <button>
-                            <img src="" alt="" />
-                            Google
+                            <img src={google} alt="" />
+                            <span>Google</span>
                         </button>
 
                         <button>
-                            <img src="" alt="" />
-                            Apple
+                            <img src={apple} alt="" />
+                            <span>Apple</span>
                         </button>
                         
                     </div>
 
                     <div className="sign-up-container">
-                        <h5>Don't have an account?</h5>
+                        <span>Don't have an account?</span>
                         <a href="#">Sign Up now</a>
                     </div>
                     
