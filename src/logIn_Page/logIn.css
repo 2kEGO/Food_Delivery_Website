@@ -153,7 +153,7 @@
 .option-button-container button {
     width: 60%;
     padding: 10px 20px;
-    background-color: white;
+    background-color: hsl(0, 0%, 100%);
     border-radius: 80px;
     border: 0.5px solid silver;
     font-weight: 700;
@@ -164,9 +164,13 @@
     gap: 5px;
 }
 
+.option-button-container button:hover {
+    background-color: hsl(0, 0%, 95%);
+}
+
 .option-button-container button img {
-    width: 16px;
-    height: 16px;
+    width: 15px;
+    height: 15px;
 }
 
 .option-container a {
