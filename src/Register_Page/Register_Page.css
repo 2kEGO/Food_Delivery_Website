@@ -7,6 +7,8 @@
 }
 
 
+
+
 .body_container {
     display: flex;
     width: 100%;
@@ -15,7 +17,10 @@
 
 .body-left {
     width: 50%;
-    min-height: 100vh;
+}
+
+.body-left img {
+    height: 100vh
 }
 
 .body-right {
@@ -27,12 +32,60 @@
 }
 
 .register-container {
-    width: 60%;
+    min-width: 70%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
-    min-height: 50vh;
+    min-height: 65vh;
     border: 1px solid black;
     border-radius: 5%;
+}
+
+
+.signup-form-title {
+    font-size: 1.4em;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.signup-form-input {
+    width: 100%;
+    padding-left: 3rem;
+}
+
+.signup-form-input input {
+    height: 5vh;
+    min-width: 70%;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+
+
+.submit-button-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit-button-container button{
+    height: 3rem;
+    width: 60%;
+    background-color: hsl(210, 79%, 46%);
+    border-radius: 5px;
+    color: white;
+}
+
+.submit-button-container button:hover {
+    background-color: hsl(210, 79%, 36%);
 }
