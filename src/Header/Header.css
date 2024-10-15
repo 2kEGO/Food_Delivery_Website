@@ -1,0 +1,44 @@
+ @import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+ *{
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", Arial;
+ }
+
+header {
+   width: 100%;
+}
+
+.redline-header {
+   width: 100%;
+   min-height: 4.5vh;
+   background-color: #db0f35;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+}
+
+
+
+/* TITTLE */
+
+.header-title-container {
+   /* flex: 8; */
+   flex-grow: 1;
+   color: white;
+   font-size: 16px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   flex-wrap: wrap;
+   gap: 3px;
+}
+
+.title {
+   color: white;
+}
+
+
+/* SIGN IN SECTION */
