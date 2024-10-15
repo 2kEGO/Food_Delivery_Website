@@ -1,12 +1,11 @@
-import './App.css';
-import LogInPage from './logIn_Page/logIn.jsx';
-import RegisterPage from './Register_Page/RegisterPage.jsx'
+import Logo from './Logo/logo.jsx';
+
 
 
 function App() {
   return (
     <>
-      <RegisterPage/>
+      <Logo />
     </>
-)}
+);}
 export default App
