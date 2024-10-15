@@ -1,0 +1,61 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:200,300,regular,500,600,700);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:regular,500,600,700,800,900,italic,500italic,600italic,700italic,800italic,900italic);
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 10vh;
+}
+
+.logo {
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo h1 {
+    font-family: "Oswald", "Arial";
+    font-size: 40px;
+    color: black;
+    font-weight: medium;
+}
+
+.logo span {
+    padding: 20px 0 0 0;
+    font-family: "PlayfairDisplay", "sans serif";
+    font-weight: bold;
+}
+
+.empty, .spinner {
+    width: 10%;
+    display: flex;
+}
+
+.loader {
+    width: 48px;
+    height: 48px;
+    border: 5px solid #FFF;
+    border-bottom-color: #FF3D00;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    }
+
+    @keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    } 

@@ -1,11 +1,11 @@
-import './App.css';
-import  MainPage from "./Header/Header.jsx"
+import Logo from './Logo/logo.jsx';
+
 
 
 function App() {
   return (
     <>
-      < MainPage/>      
+      <Logo />
     </>
-)}
+);}
 export default App

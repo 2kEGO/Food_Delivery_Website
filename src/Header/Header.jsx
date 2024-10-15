@@ -1,4 +1,5 @@
 import "./Header.css"
+import img from "./Header-img/default-avatar-icon-of-social-media-user-vector.jpg"
 
 export default function MainPage(){
     return (
@@ -15,10 +16,10 @@ export default function MainPage(){
                     <span> & get $10 off your next visit</span>
                 </div>
 
-                <div className="logo-signIn" href="#">
-                    <a href="">
+                <div className="logo-sign-In" href="#">
+                    <a href="#">
                         <h4>Sign In/Sign Up</h4>
-                        <img src="" alt="" />
+                        <img src={img} alt="" />
                     </a>
                 </div>
 

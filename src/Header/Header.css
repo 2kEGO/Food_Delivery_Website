@@ -42,3 +42,21 @@ header {
 
 
 /* SIGN IN SECTION */
+
+.logo-sign-In{
+   padding-right: 6rem;
+}
+
+.logo-sign-In a {
+   text-decoration: none;
+   color: white;
+   display: flex;
+   align-items: center;
+   gap: 20px;
+}
+
+.logo-sign-In a img {
+   width: 30px;
+   height: 30px;
+   border-radius: 50%;
+}
