@@ -10,8 +10,11 @@ export default function Logo() {
                 <span>2035</span>
             </div>
             <div className="spinner">
-                <span className=" loader">Order Online</span>
+                <div className="spinner-container">
+                    <img src="" alt="" />
+                    <img src="" alt="" />
+                </div>
             </div>
         </div>
     );
-}
+}   
