@@ -1,4 +1,6 @@
 import "./logo.css";
+import img from  './Logo_img/orderonline.png';
+
 
 export default function Logo() {
     return(
@@ -11,8 +13,8 @@ export default function Logo() {
             </div>
             <div className="spinner">
                 <div className="spinner-container">
-                    <img src="" alt="" />
-                    <img src="" alt="" />
+                    <img src={img} alt="" id="spin" href='#'/>
+                    <div id="arrow"></div>
                 </div>
             </div>
         </div>

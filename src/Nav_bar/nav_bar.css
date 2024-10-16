@@ -1,0 +1,43 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "inter", Arial;
+}
+
+.nav-bar-container {
+    width: 100%;
+    min-height: 3vh;
+    margin-top: 2vh;
+}
+
+.nav-bar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-bar ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 50px;
+    
+}
+
+.nav-bar ul li {
+    display: flex;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+}
+
+.nav-bar ul li img {
+    height: 24px;
+    width: 24px;
+    color: black;
+}
