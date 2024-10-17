@@ -1,14 +1,10 @@
-import Logo from './Logo/logo.jsx';
-import MainPage from './Header/Header.jsx';
-import Navbar from "./Nav_bar/nav_bar.jsx";
-
+import Header from './Header/Header.jsx';
+import Resize from './Header/Media_queries/Header_Resize.jsx';
 
 function App() {
   return (
     <>
-      <MainPage />
-      <Logo />
-      <Navbar />
+      <Header />
     </>
 );}
 export default App
