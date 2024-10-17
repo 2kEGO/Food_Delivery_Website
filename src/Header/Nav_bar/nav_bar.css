@@ -26,18 +26,33 @@
     align-items: center;
     gap: 50px;
     
+    
 }
 
 .nav-bar ul li {
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    
 }
 
 .nav-bar ul li a {
     text-decoration: none;
+    color: black;
+    font-weight: 300;
 }
 
 .nav-bar ul li img {
     height: 24px;
     width: 24px;
     color: black;
+}
+
+@media(max-width: 800px) {
+    .nav-bar-container {
+        display: none;
+    }
+    
 }
