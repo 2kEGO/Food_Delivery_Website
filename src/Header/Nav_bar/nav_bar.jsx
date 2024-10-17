@@ -1,7 +1,6 @@
 import "./nav_bar.css";
 import basketImg from "./Nav_bar_img/shopping_basket_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg";
 import React, {useState} from "react";
-import Basket from './Basket.jsx';
 
 export default function Navbar() {
     const [count, setCount] = useState(0);
@@ -28,7 +27,8 @@ export default function Navbar() {
                         <a href="#">Hours & Locations</a>
                     </li>
                     <li>
-                        <Basket />
+                        <img src={basketImg} alt="" />
+                        <div>{count}</div>
                     </li>
 
                 </ul>

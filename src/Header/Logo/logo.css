@@ -18,8 +18,7 @@
 
 .logo {
     display: flex;
-    width: 90%;
-    
+    flex: 1;
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -106,19 +105,21 @@
 
 
 
-
-@media (max-width: 600px){
-    .logo-container {
-        max-height: 5vh;
-    }
-    .hamburger-container {
-        display: block;
-    }
+.basket-container {
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    gap: 10px;
+    height: 100%;
 }
 
 
+/* HAMBURGER CONTAINER */
+
 .hamburger-container {
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     height: 100%;
@@ -126,7 +127,7 @@
 
 .hamburgerToggle {
     position: relative;
-    
+    padding: 10px 0;
 }
 
 .hamburgerToggle input {
@@ -156,3 +157,18 @@
               background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
               opacity 0.55s ease;
 }
+
+
+@media only screen and (max-width: 800px) {
+    .logo-container {
+        max-height: 5vh;
+    }
+    .hamburger-container {
+        display: block;
+    }
+    .basket-container{
+        display: flex;
+    }
+}
+
+
