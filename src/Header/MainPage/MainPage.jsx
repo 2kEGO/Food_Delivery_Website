@@ -5,8 +5,8 @@ export default function MainPage(){
     return (
         <div className="redline-header">
 
-            <div className="logo-left-side">
-            </div>
+            {/* <div className="logo-left-side">
+            </div> */}
 
             <div className="header-title-container">
                 <a href="#" className="title">

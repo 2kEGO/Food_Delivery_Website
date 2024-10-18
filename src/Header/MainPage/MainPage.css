@@ -7,12 +7,6 @@
     box-sizing: border-box;
  }
 
-body {
-   /* width: 100%; */
-   overflow-x: hidden;
-   overflow-x: clip !important;
-
-}
 
 .redline-header {
    width: 100%;
@@ -21,7 +15,6 @@ body {
    display: flex;
    justify-content: center;
    align-items: center;
-   padding: 0;
 }
 
 
@@ -30,7 +23,7 @@ body {
 /* TITTLE */
 
 .header-title-container {
-   flex: 8;
+   flex: 1;
    /* flex-grow: 1; */
    color: white;
    font-size: 16px;
@@ -51,7 +44,7 @@ body {
 /* SIGN IN SECTION */
 
 .logo-sign-In{
-   padding-right: 6rem;
+   padding-right: 20px;
 }
 
 .logo-sign-In a {
@@ -68,9 +61,11 @@ body {
    border-radius: 50%;
 }
 
-@media(max-width: 900px){
+@media(max-width: 800px){
    .logo-sign-In {
       display: none;
    }
-
+   .header-title-container{
+      font-size: 14px;
+   }
 }
