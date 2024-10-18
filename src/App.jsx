@@ -1,10 +1,11 @@
 import Header from './Header/Header.jsx';
-import Resize from './Header/Media_queries/Header_Resize.jsx';
+import Body from "./Body/Body.jsx";
 
 function App() {
   return (
     <>
       <Header />
+      <Body />
     </>
 );}
 export default App
