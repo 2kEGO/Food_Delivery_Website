@@ -1,10 +1,37 @@
-*{
-    padding: 0;
-    margin: 0;
-
-}
-
 .navbar-container {
     width: 100%;
-    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    min-height: 80vh;
+}
+
+.navbar-img-section {
+    margin: 20px auto ;
+    width: 100%;
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.navbar-img-section img {
+    height: 40vh;
+    width: 90%;
+    
+}
+
+.navbar-img-section h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.button-container {
+    display: flex;
+}
+
+.button-container button {
+    min-height: 2rem;
+    
 }
