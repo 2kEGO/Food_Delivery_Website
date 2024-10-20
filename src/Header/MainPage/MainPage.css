@@ -61,7 +61,7 @@
    border-radius: 50%;
 }
 
-@media(max-width: 800px){
+@media all and (max-width: 800px){
    .logo-sign-In {
       display: none;
    }
