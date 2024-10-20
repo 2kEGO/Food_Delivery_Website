@@ -13,6 +13,7 @@
     height: 10vh;
     justify-content: center;
     align-items: center;
+    margin-top: 10px;
 }
 
 
@@ -22,6 +23,7 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
+    height: 100%;
 }
 
 .logo h1 {
@@ -108,7 +110,7 @@
 .basket-container {
     display: none;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
     margin-right: 10px;
     gap: 10px;
@@ -123,6 +125,7 @@
     justify-content: center;
     align-items: center;
     height: 100%;
+    padding-right: 10px;
 }
 
 .hamburgerToggle {
@@ -159,7 +162,7 @@
 }
 
 
-@media only screen and (max-width: 800px) {
+@media all and (max-width: 800px) {
     .logo-container {
         max-height: 5vh;
     }
@@ -168,6 +171,10 @@
     }
     .basket-container{
         display: flex;
+    }
+    
+    .logo h1 {
+        font-size: 30px;
     }
 }
 

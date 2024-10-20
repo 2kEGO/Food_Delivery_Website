@@ -7,16 +7,31 @@ export default function NavBarBody() {
             
             <div className="navbar-img-section">
                 <img src={foodImg} alt="" />
+                <div className="blurImg"></div>
                 <h1>Italian Inspired kitchen in the Heart of San Francisco</h1>
-                {/* <section>
-                    <img src={foodImg} alt="" />
-                </section> */}
+                
             </div>
 
             <div className="button-container">
-                <button></button>
-                <button></button>
-                <button></button>
+                <div className="button">
+                    <button>Our Menu</button>
+                    <div>
+                        <span>&#8594;</span>
+                    </div>
+                </div>
+                <div className="button">
+                    <button>Delivery & Pickup</button>
+                    <div>
+                        <span>&#8594;</span>
+                    </div>
+                </div>
+                <div className="button">
+                    <button>Book a Table</button>
+                    <div>
+                        <span>&#8594;</span>
+                    </div>
+                </div>
+                
             </div>
 
         </div>
