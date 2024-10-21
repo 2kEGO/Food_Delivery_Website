@@ -37,7 +37,7 @@ export default function Story() {
                 
                 <div className="upper">
                     <img src={pastaImg} alt="" />
-                    <FanFave data={[data[0]]} className=""/>
+                    <FanFave data={[data[0]]} />
                 </div>
 
                 <div className="down">
