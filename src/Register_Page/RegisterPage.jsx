@@ -3,6 +3,11 @@ import img from './Register_Page_img/Halloumi Burgers.jfif';
 
 
 export default function RegisterPage() {
+    
+    function saveInfo(){
+
+    }
+    
     return (
         <div className="body_container">
             
@@ -11,7 +16,8 @@ export default function RegisterPage() {
             </div>
 
             <div className="body-right">
-                <div className="register-container">
+                
+                <form className="register-container" onChange={saveInfo()}>
 
                     <div className="signup-form-title">
                         <h1>Create Your Account</h1>
@@ -37,9 +43,9 @@ export default function RegisterPage() {
                             <input type="text" placeholder='UserName'/>
                         </div>
 
-                        {/* <div className="signup-form-title">
-                            <h3>Password</h3>
-                        </div> */}
+                        <div className="signup-form-input">
+                            <input type="text" placeholder='Email' />
+                        </div>
 
                         <div className="signup-form-input">
                             <input type="password" placeholder='Password'/>
@@ -52,10 +58,10 @@ export default function RegisterPage() {
                     </div>
 
                     <div className="submit-button-container">
-                        <button>Sign Up</button>
+                        <button type='submit'>Sign Up</button>
                     </div>
 
-                </div>
+                </form>
             </div>
 
 
