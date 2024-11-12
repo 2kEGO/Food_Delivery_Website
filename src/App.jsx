@@ -1,11 +1,13 @@
 import Header from './Header/Header.jsx';
 import Body from "./Body/Body.jsx";
+import LogInPage from './logIn_Page/logIn.jsx';
+import RegisterPage from './Register_Page/RegisterPage.jsx'
 
 function App() {
   return (
     <>
-      <Header />
-      <Body />
+      <RegisterPage />
+      
     </>
 );}
 export default App

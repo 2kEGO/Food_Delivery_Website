@@ -65,9 +65,16 @@
 
 .signup-form-input input {
     height: 5vh;
-    min-width: 70%;
+    min-width: 90%;
     border-radius: 5px;
     padding: 5px 20px;
+    border: 1px solid black;
+}
+
+.signup-form-input input:focus{
+
+    border: none !important;
+    border-bottom: 1px solid black !important;
 }
 
 
